@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/LifeJunkieRaj/RecreationCompass">
-    <img src="frontend/public/siteImages/RecCompLogo-removebg-preview" alt="Logo" width="300" height="250" style="">
+    <img src="./frontend/public/siteImages/RecCompLogo-removebg-preview" alt="Logo" width="300" height="250" style="">
   </a>
 
   <h3 align="center">Recreation Compass, Finding and Discovering Your Local Parks and Beaches Has Never Been So Fun!!!</h3>
