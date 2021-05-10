@@ -8,7 +8,7 @@
   <h3 align="center">Recreation Compass, Finding and Discovering Your Local Parks and Beaches Has Never Been So Fun!!!</h3>
 
   <p align="center">
-Recreation Compass is your first free, local and national source for finding all the public parks and beaches near you.  It is an open-source geo-social web application where users can find their local beaches and parks, leave reviews on those location, leave a star-rating for the park or beach and see others' reveiws on your local parcks and beaches
+Recreation Compass is your first free, local and national source for finding all the public parks and beaches near you.  It is an open-source geo-social web application where users can find their local beaches and parks, leave reviews on those locations, leave a star-rating for the park or beach and see others' reveiws on your local parks and beaches
     <br />
     <a href="https://github.com/LifeJunkieRaj/RecreationCompass/wiki"><strong>Explore the docs »</strong></a>
     <br />
