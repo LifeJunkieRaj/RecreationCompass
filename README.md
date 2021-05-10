@@ -1,7 +1,8 @@
 <br />
 <p align="center">
   <a href="https://github.com/LifeJunkieRaj/RecreationCompass">
-    <img src="./frontend/public/siteImages/RecCompLogo-removebg-preview" alt="Logo" width="300" height="250" style="">
+    <img src="./frontend/public/siteImages/RecCompLogo-removebg-preview.png" alt="Logo" width="300" height="250" style="">
+    
   </a>
 
   <h3 align="center">Recreation Compass, Finding and Discovering Your Local Parks and Beaches Has Never Been So Fun!!!</h3>
@@ -52,10 +53,10 @@ Recreation Compass is your first free, local and national source for finding all
 ## About The Project
 [Click here to view Guruud live on the web!](https://guruud.herokuapp.com/)
 <br>
-   <img src="./react-app/src/site-images/LandingPage.jpg"/>
-   <img src="./react-app/src/site-images/LoginPage.jpg"/>
-   <img src="./react-app/src/site-images/SignUp Form.jpg"/>
-   <img src="./react-app/src/site-images/HomePage.jpg"/>
+   <img src="./"/>
+   <img src="./"/>
+   <img src="./"/>
+   <img src="./"/>
 </br>
 
 
