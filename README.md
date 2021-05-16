@@ -75,6 +75,20 @@ Recreation Compass is your first free, local and national source for finding all
 <!-- GETTING STARTED -->
 ## Getting Started
 
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/LifeJunkieRaj/RecreationCompass
+   ```
+2. Install NPM packages in the React App
+   ```sh
+   npm install
+   ```
+3. Add a '.env' with your environment variables to the root of your local directory
+
+
+
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
@@ -83,13 +97,21 @@ Here is everything we need you to do to get started with Recreation Compass.
 
 After creating a directory for your project and creating two folders within it, a frontend and backend folder...
 
-First, install Nodejs at nodejs.org/EN/
+1. Install Node
 
-Second, cd into the backend directory...
+Install Nodejs at nodejs.org/EN/
 
-Third, open project folder in vscode
+2. 
 
-Fourth, while still in the backend directory, do the following commands:
+CD into the backend/server directory
+
+3. Open Project
+
+Open project folder in vscode (command is code .)
+
+4. Install Express
+
+While still in the backend directory, do the following commands:
 
   * npm
   ```sh
@@ -100,21 +122,26 @@ Fourth, while still in the backend directory, do the following commands:
   npm install express
   ```
   
-Fifth, in your backend folder, create a file called server.js
+5. Create Backend Folder
 
-Sixth, inside this file on line 1 type:
+In your backend folder, create a file called server.js
 
+6. Start Running Backend Server
+
+Inside this file on line 1 type:
+   ```sh
   * const express = require("express")
-
+   ```
   on line 3 type:
-
+   ```sh
   * const app = express()
-
+   ```
   on line 5 type:
-  
+   ```sh
   * app.listen(3000, () => {
   *   console.log("Server is up and listening on port 3000");
   * });
+   ```
 
 In your terminal, make sure you are in your server folder and then type in the command:
 
@@ -132,42 +159,21 @@ and if everything goes well, you should get a message saying that "Server is up 
    ```sh
    npm install
    ```
-3. Install Dependencies
-   ```bash
-   pipenv install --dev -r dev-requirements.txt && pipenv install -r requirements.txt
-   ```
+3. Add a '.env' with your environment variables to the root of your local directory
 
-4. Add a '.env' with your environment variables to the root of your local directory
+### PostgreSQL Setup
 
-5. Create a postgreSQL user
+1. Create a postgreSQL user
     ```sh
     CREATE USERS <<your username>> WITH PASSWORD <<your password>> CREATEDB
     ```
-6. Create your database
+2. Create your database
     ```sh
    CREATE DATABASE <<database name>> WITH OWNER <<your username>>
     ```
-7. Start a pipenv virtual environment
-   ```bash
-   pipenv shell
-   ```
-8. Migrate and seed your database
-    ```sh
-    flask db migrate
-    ```
-    ```bash
-   flask db upgrade
-   ```
-   ```bash
-   flask seed all
-   ```
-   ```bash
-   flask run
-   ```
-9. Start your local development server in the React App
-   ```bash
-   npm start
-   ```
+    
+NOTE: You will end up creating two tables in your database, one for beaches and parks, and one for reviews
+
 
 ## Deploy to Heroku
 
