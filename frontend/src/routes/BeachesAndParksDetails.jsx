@@ -5,6 +5,8 @@ import RecreationCompass from "../apis/RecreationCompass";
 import StarRating from '../Components/StarRating';
 import Reviews from '../Components/Reviews';
 import AddReviews from '../Components/AddReviews';
+import NavBar from '../Components/NavBar';
+import "../css/details.css";
 
 
 const BeachesAndParksDetails = () => {
@@ -26,9 +28,11 @@ const BeachesAndParksDetails = () => {
         fetchData()
     }, [])
     return (
-        <div>
+        <div className="details-background-container">
+        <div className="container">
+            <NavBar pageName="loggedinpage" />
             {selectedBeachesAndParks && (
-            <>
+            <div >
             <h1 className="text-center display-1">{selectedBeachesAndParks.baps.name}</h1>
             <div className="text-center">
                 <StarRating rating={selectedBeachesAndParks.baps.average_rating}/>
@@ -39,8 +43,9 @@ const BeachesAndParksDetails = () => {
                 
             </div>
                 <AddReviews />
-            </>        
+            </div>        
             )}
+        </div>
         </div>
     )
 }

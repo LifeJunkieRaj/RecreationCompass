@@ -53,7 +53,7 @@ const BeachesAndParksList = (props) => {
 
     return (
         <div className="list-group">
-            <table className="table table-hover table-striped">
+            <table className="table table-hover table-dark">
                <thead>
                  <tr className="bg-primary">
                      <th scope="col">Beach and/or Park</th>

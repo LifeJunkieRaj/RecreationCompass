@@ -35,17 +35,21 @@ function UpdateBeachesAndParks(props) {
 
     return (
         <div>
-          <form action="">
-            <div className="form-group">
+          <form action="" className="d-flex flex-wrap">
+              <div className="w-50">
+                              <div className="form-group text-white">
                 <label htmlFor="name">Name</label>
                 <input value={name} onChange={(e) => setName(e.target.value)} id="name" className="form-control" type="text" />
             </div>
 
-            <div className="form-group">
+            <div className="form-group text-white">
                 <label htmlFor="location">Location</label>
                 <input value={location} onChange={(e) => setLocation(e.target.value)} id="location" className="form-control" type="text" />
             </div>
-            <div className="form-group">
+            </div>
+
+            <div className="w-50">
+            <div className="form-group text-white">
                 <label htmlFor="if_beach">Is it a Beach?</label>
                 {/* <input id="if_beach" className="form-control" type={"text"} /> */}
                 <select value={if_beach} onChange={e => setIf_Beach(e.target.value)} className="custom-select my-1 mr-sm-2">
@@ -54,7 +58,7 @@ function UpdateBeachesAndParks(props) {
                             <option value={false}>No</option>
                 </select>
             </div>
-            <div className="form-group">
+            <div className="form-group text-white">
                 <label htmlFor="if_park">Is it a Park</label>
                 {/* <input id="if_park" className="form-control" type={"text"} /> */}
                 <select value={if_park} onChange={e => setIf_Park(e.target.value)} className="custom-select my-1 mr-sm-2">
@@ -63,7 +67,8 @@ function UpdateBeachesAndParks(props) {
                             <option value={false}>No</option>
                 </select>
             </div>
-            <button type="submit" onClick={handleSubmit} className="btn btn-primary">Submit</button>
+            </div>
+            <button type="submit" onClick={handleSubmit} className="btn btn-warning">Submit</button>
           </form>  
         </div>
     )
